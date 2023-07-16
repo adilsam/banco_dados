@@ -19,3 +19,14 @@ INSERT INTO `empresa`.`projeto` (`proj_nome`, `proj_num`, `proj_local`, `dpto_nu
 INSERT INTO `empresa`.`projeto` (`proj_nome`, `proj_num`, `proj_local`, `dpto_num`) VALUES ('Pesquisa UFMG', 2, 'Belo Horizonte', 4);
 INSERT INTO `empresa`.`projeto` (`proj_nome`, `proj_num`, `proj_local`, `dpto_num`) VALUES ('Contato PUC-MG', 3, 'Belo Horizonte', 4);
 INSERT INTO `empresa`.`projeto` (`proj_nome`, `proj_num`, `proj_local`, `dpto_num`) VALUES ('Super 2024', 4, 'São Paulo', 2);
+
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '123456789', 1, 49.00);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '987654321', 4, 27.00);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '789234567', 4, 31.45);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '432109876', 2, 47.50);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '345678901', 1, 30.50);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '901234567', 2, 33.00);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '456789012', 3, 48.00);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '111116789', 1, 44.00);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '890123456', 2, 42.00);
+INSERT INTO `empresa`.`trabalha_em` (`func_ssn`, `proj_num`, `Hours`) VALUES ( '321987654', 1, 43.00);
